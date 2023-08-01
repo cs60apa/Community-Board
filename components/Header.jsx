@@ -9,6 +9,7 @@ function Header() {
   const [query, setQuery] = useState('');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
+  //toggle still not functional
   const toggleSearch = () => {
     if (isSearchOpen) {
       // If the search bar is open
